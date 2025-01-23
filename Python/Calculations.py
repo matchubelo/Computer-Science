@@ -7,4 +7,4 @@ print("")
 N2 = input("Enter the another number: ")
 print("")
 
-print(N1, "+", N2, "=", int(N1) + int(N2))
+print(N1, "+", N2, "=", float(N1) + float(N2))
