@@ -3,9 +3,9 @@ print("")
 
 Tip = input("Enter the tip percentage: ")
 
-Tax = Subtotal * 0.0635
+Tax = float(Subtotal) * float(0.0635)
 
-TipAmount = Subtotal * (Tip / 100)
+TipAmount = float(Subtotal) * (float(Tip) / 100)
 
 Total = float(Subtotal) + float(Tax) + float(TipAmount)
 
