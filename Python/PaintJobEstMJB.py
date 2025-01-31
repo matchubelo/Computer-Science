@@ -11,7 +11,7 @@ def GetPrice(SQFT):
     return Gallons, GallonPrice, Hours, LaborPrice, TotalPrice
 
 
-SQFT =  GetSQFT()
+SQFT = GetSQFT()
 Gallons, GallonPrice, Hours, LaborPrice, TotalPrice = GetPrice(SQFT)
 print("For ", format(SQFT, '.1f'), "Sqaure Feet", "\n",
     "You will need ", format(Gallons, '.2f'), "gallons of paint", "\n",
