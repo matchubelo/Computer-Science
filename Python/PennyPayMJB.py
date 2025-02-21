@@ -8,4 +8,4 @@ while count < days:
     pay = pay + penny
     penny = penny * 2
     count = count + 1
-    print("Day", count, "Salary: $", penny/100)
+    print("Day", count, "Salary: $", format(penny/100, ".2f"))
