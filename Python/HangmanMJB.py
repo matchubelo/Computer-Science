@@ -14,7 +14,7 @@ def display_word(word, guessed_letters):
 def hangman():
     word = get_random_word()
     guessed_letters = set()
-    attempts = 6
+    attempts = 7
 
     print("Welcome to Hangman!")
     print("You have 6 attempts to guess the word.")
@@ -33,35 +33,41 @@ def hangman():
             guessed_letters.add(guess)
             attempts = attempts - 1
             print(f"Incorrect! {attempts} attempts left.")
-            if attempts == 5:
+            if attempts == 6:
                 print(
                     "----------|   ", "\n",
                     "         O    ", "\n",)
-            if attempts == 4:
+            if attempts == 5:
                 print(
                     "----------|   ", "\n",
                     "         O    ", "\n",
                     "         |    ", "\n",)
-            if attempts == 3:
+            if attempts == 4:
                 print(
                     "----------|   ", "\n",
                     "         O    ", "\n",
                     "        /|    ", "\n",)
-            if attempts == 2:
+            if attempts == 3:
                 print(
                     "----------|   ", "\n",
                     "         O    ", "\n",
                     "        /|\   ", "\n",)
-            if attempts == 1:
+            if attempts == 2:
                 print(
                     "----------|   ", "\n",
                     "         O    ", "\n",
                     "        /|\   ", "\n",
                     "        /     ", "\n",)
+            if attempts == 1:
+                print(
+                "----------|   ", "\n",
+                "         O    ", "\n",
+                "        /|\   ", "\n",
+                "        / \  ", "\n",)
 
     print("Game over! The word was: ", word, "\n",
         "----------|   ", "\n",
-        "         O    ", "\n",
+        "         x    ", "\n",
         "        /|\   ", "\n",
         "        / \  ", "\n",
         "You have been hanged!")
