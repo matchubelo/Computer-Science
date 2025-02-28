@@ -17,7 +17,7 @@ def hangman():
     attempts = 7
 
     print("Welcome to Hangman!")
-    print("You have 6 attempts to guess the word.")
+    print("You have 7 attempts to guess the word.")
     while attempts > 0:
         print(f"Word: {display_word(word, guessed_letters)}")
         guess = input("Guess a letter: ").lower()
