@@ -70,5 +70,4 @@ def main():
 
     print(f"You matched {len(matches)} regular numbers and {'the Powerball' if powerball_match else 'no Powerball'}.")
 
-
 main()
