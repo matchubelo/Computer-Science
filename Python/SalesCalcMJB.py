@@ -1,9 +1,10 @@
 day = 1
-totalsales = 0
+sales = []
 
 while day <= 7:
     daysales = float(input("How much money did you make today? "))
-    totalsales = totalsales + daysales
+    sales.append(daysales)
     day += 1
 
-print("Your weekly sale total is: $", format(totalsales, '.2f'))
+print("Your weekly sale total is: $", format(sum(sales), '.2f'))
+print("Your daily sales are: ", "\n", sales)
