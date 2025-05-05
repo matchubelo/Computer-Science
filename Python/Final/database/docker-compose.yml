@@ -30,6 +30,15 @@ services:
       - postgres
     restart: unless-stopped
 
+  adminer:
+    container_name: adminer
+    image: adminer
+    ports:
+      - "8080:8080"
+    networks:
+      - postgres
+    restart: unless-stopped
+    
 networks:
   postgres:
     driver: bridge
