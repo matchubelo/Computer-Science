@@ -67,79 +67,79 @@ def show_question(index, button):
 
 
 
-question0 = tk.Button(window, text=points[0], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(0))
+question0 = tk.Button(window, text=points[0], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(0))
 question0.grid(row=0, column=0, padx=10, pady=10)
 
-question1 = tk.Button(window, text=points[1], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(1))
+question1 = tk.Button(window, text=points[1], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(1))
 question1.grid(row=0, column=1, padx=10, pady=10)
 
-question2 = tk.Button(window, text=points[2], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(2))
+question2 = tk.Button(window, text=points[2], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(2))
 question2.grid(row=0, column=2, padx=10, pady=10)
 
-question3 = tk.Button(window, text=points[3], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(3))
+question3 = tk.Button(window, text=points[3], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(3))
 question3.grid(row=0, column=3, padx=10, pady=10)
 
-question4 = tk.Button(window, text=points[4], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(4))
+question4 = tk.Button(window, text=points[4], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(4))
 question4.grid(row=0, column=4, padx=10, pady=10)
 
-question5 = tk.Button(window, text=points[5], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(5))
+question5 = tk.Button(window, text=points[5], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(5))
 question5.grid(row=1, column=0, padx=10, pady=10)
 
-question6 = tk.Button(window, text=points[6], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(6))
+question6 = tk.Button(window, text=points[6], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(6))
 question6.grid(row=1, column=1, padx=10, pady=10)
 
-question7 = tk.Button(window, text=points[7], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(7))
+question7 = tk.Button(window, text=points[7], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(7))
 question7.grid(row=1, column=2, padx=10, pady=10)
 
-question8 = tk.Button(window, text=points[8], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(8))
+question8 = tk.Button(window, text=points[8], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(8))
 question8.grid(row=1, column=3, padx=10, pady=10)
 
-question9 = tk.Button(window, text=points[9], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(9))
+question9 = tk.Button(window, text=points[9], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(9))
 question9.grid(row=1, column=4, padx=10, pady=10)
 
-question10 = tk.Button(window, text=points[10], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(10))
+question10 = tk.Button(window, text=points[10], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(10))
 question10.grid(row=2, column=0, padx=10, pady=10)
 
-question11 = tk.Button(window, text=points[11], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(11))
+question11 = tk.Button(window, text=points[11], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(11))
 question11.grid(row=2, column=1, padx=10, pady=10)
 
-question12 = tk.Button(window, text=points[12], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(12))
+question12 = tk.Button(window, text=points[12], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(12))
 question12.grid(row=2, column=2, padx=10, pady=10)
 
-question13 = tk.Button(window, text=points[13], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(13))
+question13 = tk.Button(window, text=points[13], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(13))
 question13.grid(row=2, column=3, padx=10, pady=10)
 
-question14 = tk.Button(window, text=points[14], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(14))
+question14 = tk.Button(window, text=points[14], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(14))
 question14.grid(row=2, column=4, padx=10, pady=10)
 
-question15 = tk.Button(window, text=points[15], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(15))
+question15 = tk.Button(window, text=points[15], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(15))
 question15.grid(row=3, column=0, padx=10, pady=10)
 
-question16 = tk.Button(window, text=points[16], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(16))
+question16 = tk.Button(window, text=points[16], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(16))
 question16.grid(row=3, column=1, padx=10, pady=10)
 
-question17 = tk.Button(window, text=points[17], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(17))
+question17 = tk.Button(window, text=points[17], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(17))
 question17.grid(row=3, column=2, padx=10, pady=10)
 
-question18 = tk.Button(window, text=points[18], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(18))
+question18 = tk.Button(window, text=points[18], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(18))
 question18.grid(row=3, column=3, padx=10, pady=10)
 
-question19 = tk.Button(window, text=points[19], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(19))
+question19 = tk.Button(window, text=points[19], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(19))
 question19.grid(row=3, column=4, padx=10, pady=10)
 
-question20 = tk.Button(window, text=points[20], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(20))
+question20 = tk.Button(window, text=points[20], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(20))
 question20.grid(row=4, column=0, padx=10, pady=10)
 
-question21 = tk.Button(window, text=points[21], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(21))
+question21 = tk.Button(window, text=points[21], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(21))
 question21.grid(row=4, column=1, padx=10, pady=10)
 
-question22 = tk.Button(window, text=points[22], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(22))
+question22 = tk.Button(window, text=points[22], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(22))
 question22.grid(row=4, column=2, padx=10, pady=10)
 
-question23 = tk.Button(window, text=points[23], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(23))
+question23 = tk.Button(window, text=points[23], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(23))
 question23.grid(row=4, column=3, padx=10, pady=10)
 
-question24 = tk.Button(window, text=points[24], bg="black", fg="white", font=("Arial", 20), command=lambda: show_question(24))
+question24 = tk.Button(window, text=points[24], bg="white", fg="black", font=("Arial", 20), command=lambda: show_question(24))
 question24.grid(row=4, column=4, padx=10, pady=10)
 
 window.mainloop()
