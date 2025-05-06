@@ -1,5 +1,6 @@
 from tkinter import *
 import tkinter as tk
+from PIL import Image, ImageTk
 import psycopg2 as pg
 
 conn = pg.connect(
@@ -23,7 +24,11 @@ conn.close()
 window = tk.Tk()
 window.title("Matt's Jeopardy")
 window.geometry("505x325")
-window.configure(bg="#383ded")
+Image.open("images/jeopardy.jpg").save("images/background.jpg")
+bg_image = ImageTk.PhotoImage(Image.open("images/background.jpg"))
+bg_label = tk.Label(window, image=bg_image)
+bg_label.place(relwidth=1, relheight=1)
+window.configure(bg="black")
 
 # Initialize score and score label
 score = 0
