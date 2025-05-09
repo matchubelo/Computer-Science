@@ -1,5 +1,3 @@
--- Adminer 5.2.1 PostgreSQL 17.4 dump
-
 DROP TABLE IF EXISTS "trivia";
 CREATE TABLE "public"."trivia" (
     "id" integer,
@@ -28,11 +26,9 @@ INSERT INTO "trivia" ("id", "question", "answer", "points") VALUES
 (16,	'What tool is used for resolving domain names to IP addresses? Example: google.com = 8.8.8.8',	'DNS',	800),
 (17,	'What tool (Commonly done by the router) will hand out private IP addresses to devices?',	'DHCP',	800),
 (18,	'What does SSH stand for? (The tool commonly used to remotely connect to devices)',	'Secure Shell',	800),
-(19,	'What  technology do KO keycards use to get into buildings?',	'RFID',	800),
+(19,	'What technology do KO keycards use to get into buildings?',	'RFID',	800),
 (20,	'What does SQL stand for?',	'Structured Query Language',	1000),
 (21,	'What does MFA stand for?',	'Multi Factor Authentication',	1000),
 (22,	'What does API stand for?',	'Application Programming Interface',	1000),
 (23,	'What company owned the ThinkPad laptop before Lenovo?',	'IBM',	1000),
 (24,	'Why is Stryck always late?',	'',	1000);
-
--- 2025-05-09 14:40:33 UTC
