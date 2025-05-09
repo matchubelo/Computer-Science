@@ -1,0 +1,38 @@
+-- Adminer 5.2.1 PostgreSQL 17.4 dump
+
+DROP TABLE IF EXISTS "trivia";
+CREATE TABLE "public"."trivia" (
+    "id" integer,
+    "question" character varying,
+    "answer" character varying,
+    "points" integer
+) WITH (oids = false);
+
+INSERT INTO "trivia" ("id", "question", "answer", "points") VALUES
+(1,	'What is the official name for the i am not a robot tests that websites use?',	'CAPTCHAs',	200),
+(2,	'What tool is commonly used to track versions of code?',	'Git',	200),
+(3,	'What is the most used cloud computing provider?',	'AWS',	200),
+(4,	'What is the best selling video game?',	'Minecraft',	200),
+(5,	'If Control + C is copy, what is the command for paste? (Control + _)',	'V',	400),
+(6,	'1TB (Terrabytes) is how many GB (Gigabytes)?',	'1000',	400),
+(7,	'What does IP stand for in the term IP Address?',	'Internet Protocol',	400),
+(8,	'What does VPN stand for?',	'Virtual Private Network',	400),
+(9,	'What programming language is taught in AP Computer Science A?',	'Java',	400),
+(0,	'What programming language is named after a type of coffee?',	'Java',	200),
+(10,	'What music player was made by Apple? Hint: It was a competitor to the Sony Walkman',	'iPod',	600),
+(11,	'What does the acronym LAN stand for?',	'Local Area Network',	600),
+(12,	'What do you make in Python when your command starts with def?',	'A Function',	600),
+(13,	'What company created the popular AI/ML tool ChatGPT?',	'OpenAI',	600),
+(14,	'What 3 Coding Languages are used in web development?',	'HTML, CSS, and JavaScript',	600),
+(15,	'What small computer is commonly used for DIY projects?',	'Raspberry Pi',	800),
+(16,	'What tool is used for resolving domain names to IP addresses? Example: google.com = 8.8.8.8',	'DNS',	800),
+(17,	'What tool (Commonly done by the router) will hand out private IP addresses to devices?',	'DHCP',	800),
+(18,	'What does SSH stand for? (The tool commonly used to remotely connect to devices)',	'Secure Shell',	800),
+(19,	'What  technology do KO keycards use to get into buildings?',	'RFID',	800),
+(20,	'What does SQL stand for?',	'Structured Query Language',	1000),
+(21,	'What does MFA stand for?',	'Multi Factor Authentication',	1000),
+(22,	'What does API stand for?',	'Application Programming Interface',	1000),
+(23,	'What company owned the ThinkPad laptop before Lenovo?',	'IBM',	1000),
+(24,	'Why is Stryck always late?',	'',	1000);
+
+-- 2025-05-09 14:40:33 UTC
