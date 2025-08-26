@@ -1,9 +1,6 @@
-Prerequisites:
-
 1. Have Docker installed
-2. Make Docker Volumes
+2. Make Docker Volume
     docker volume create postgres
-    docker volume create pgadmin
 
 3. Clone Git Repo in VS Code
 4. Install the Container Tools extension
@@ -16,4 +13,9 @@ Prerequisites:
     password: postgres
     database: postgres
 
-8. 
+8. Import the SQL table 
+    On the left hand column click Import, then File upload
+    Choose Files
+    Execute
+
+9. Run the JeopardyMJB.py file and enjoy!

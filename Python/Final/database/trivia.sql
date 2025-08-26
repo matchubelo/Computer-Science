@@ -7,6 +7,7 @@ CREATE TABLE "public"."trivia" (
 ) WITH (oids = false);
 
 INSERT INTO "trivia" ("id", "question", "answer", "points") VALUES
+(0,	'What programming language is named after a type of coffee?',	'Java',	200),
 (1,	'What is the official name for the i am not a robot tests that websites use?',	'CAPTCHAs',	200),
 (2,	'What tool is commonly used to track versions of code?',	'Git',	200),
 (3,	'What is the most used cloud computing provider?',	'AWS',	200),
@@ -16,7 +17,6 @@ INSERT INTO "trivia" ("id", "question", "answer", "points") VALUES
 (7,	'What does IP stand for in the term IP Address?',	'Internet Protocol',	400),
 (8,	'What does VPN stand for?',	'Virtual Private Network',	400),
 (9,	'What programming language is taught in AP Computer Science A?',	'Java',	400),
-(0,	'What programming language is named after a type of coffee?',	'Java',	200),
 (10,	'What music player was made by Apple? Hint: It was a competitor to the Sony Walkman',	'iPod',	600),
 (11,	'What does the acronym LAN stand for?',	'Local Area Network',	600),
 (12,	'What do you make in Python when your command starts with def?',	'A Function',	600),
