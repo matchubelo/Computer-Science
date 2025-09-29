@@ -16,7 +16,7 @@ public class CarProgramMJB {
         while (acceltimes < 5)
         {
             car.accelerate();
-            System.out.println("Your " + car.getyear() + " " + car.getmake() + " is going " + car.getspeed() + "MPH");
+            System.out.println("Your " + car.getyear() + " " + car.getmake() + " is going " + car.getspeed() + " MPH");
             acceltimes = acceltimes + 1;
         }
 
@@ -25,7 +25,7 @@ public class CarProgramMJB {
         while (braketimes < 5)
         {
             car.brake();
-            System.out.println("Your " + car.getyear() + " " + car.getmake() + " is going " + car.getspeed() + "MPH");
+            System.out.println("Your " + car.getyear() + " " + car.getmake() + " is going " + car.getspeed() + " MPH");
             braketimes = braketimes + 1;
         }
 

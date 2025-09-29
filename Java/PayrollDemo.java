@@ -5,7 +5,7 @@ public class PayrollDemo
 
     public static void main(String[] args) 
     {
-        PayrollClassesMJB pay = new PayrollClassesMJB();
+        OldPayrollClassesMJB pay = new OldPayrollClassesMJB();
         pay.setname("Matt Belo");
         pay.sethours(15);
         pay.sethourlyrate(16.89);
