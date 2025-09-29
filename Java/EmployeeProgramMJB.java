@@ -24,6 +24,7 @@ public class EmployeeProgramMJB
         employee2.setposition("Engineer");
 
         System.out.println("Name        ID Number       Department      Position");
+        System.out.println("");
         System.out.println(employee0.getname() + " " + employee0.getidnumber() + "          " + employee0.getdepartment() + "      " + employee0.getposition());
         System.out.println(employee1.getname() + "   " + employee1.getidnumber() + "          " + employee1.getdepartment() + "              " + employee1.getposition());
         System.out.println(employee2.getname() + "   " + employee2.getidnumber() + "          " + employee2.getdepartment() + "   " + employee2.getposition());
