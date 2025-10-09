@@ -1,6 +1,6 @@
 package Java;
 
-public class PayrollClassesMJB 
+public class Payroll
 {
     private String name;
     private int idnumber;
