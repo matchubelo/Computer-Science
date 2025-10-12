@@ -7,6 +7,15 @@ public class Payroll
     private double hourly_rate;
     private double hours_work;
 
+    public Payroll(String namein, int idnumberin)
+    {
+        name = namein;
+        idnumber = idnumberin;
+        hourly_rate = 0;
+        hourly_rate = 0;
+    }
+
+
     public void setname(String namein)
     {
         name = namein;

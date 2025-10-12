@@ -1,10 +1,17 @@
 package Java;
 
-public class CarClassesMJB 
+public class Car 
 {
     private int year;
     private String make;
     private int speed;
+
+    public Car(int yearin, String makein)
+    {
+        yearin = year;
+        makein = make;
+    }
+
 
     public void setyear(int yearin)
     {

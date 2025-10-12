@@ -3,13 +3,12 @@ package Java;
 public class CarProgramMJB {
     public static void main(String[] args) 
     {
-        CarClassesMJB car = new CarClassesMJB();
+        int yearin = 1997;
+        String makein = "Toyota Land Cruiser";
+        
+        Car car = new Car(yearin, makein);
 
-        car.setyear(1997);
-        car.setmake("Toyota Land Cruiser");
         car.setspeed(0);
-
-
         int acceltimes = 0;
         int braketimes = 0;
 
@@ -28,6 +27,5 @@ public class CarProgramMJB {
             System.out.println("Your " + car.getyear() + " " + car.getmake() + " is going " + car.getspeed() + " MPH");
             braketimes = braketimes + 1;
         }
-
     }
 }
