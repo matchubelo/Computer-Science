@@ -1,11 +1,10 @@
 package Java;
-import java.util.*;
 
 public class AugustCalenendarMJB 
 {
     public static void main(String[] args) 
     {
-      // August 2026 starts on a Saturday
+
       int[][] calendar = {
         {0, 0, 0, 0, 0, 0, 1},
         {2, 3, 4, 5, 6, 7, 8},
